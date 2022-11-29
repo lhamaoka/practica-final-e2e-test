@@ -1,0 +1,7 @@
+Los test se lanzan con el comando 
+
+
+sh 'mvn clean verify -Dwebdriver.remote.url=https://standalone-chrome.default:4444/wd/hub -Dwebdriver.remote.driver=chrome -Dchrome.switches="--no-sandbox,--ignore-certificate-errors,--homepage=about:blank,--no-first-run,--headless"'
+
+
+webdriver.remote.url apunta al standalone-chrome

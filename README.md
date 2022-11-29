@@ -1,1 +1,1 @@
-# practica-final-e2e-test
+# functional-e2e-test
